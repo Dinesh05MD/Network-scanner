@@ -1,0 +1,20 @@
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore virtual environment folder
+venv/
+env/
+
+# Ignore output CSV files
+network_scan_results.csv
+sample_output.csv
+
+# Ignore VS Code settings (optional but recommended)
+.vscode/
